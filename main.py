@@ -1,5 +1,6 @@
 import numpy as np
 import random
+
 def func(n):
     sizes = []
     while len(sizes)!=n:
@@ -16,6 +17,7 @@ def func(n):
 #sort min
     for i in range(1,n,2):
         list_of_arrays[i].sort(reverse = True)
+        
     return list_of_arrays
 
 if __name__ == '__main__':
